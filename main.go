@@ -11,7 +11,7 @@ func main(){
 	n := 3
 
 	MergeSortedArray(nums1, m, nums2, n)
-	RemoveDuplicates(nums1)
 	fmt.Println(nums1)
-	
+	fmt.Println(RemoveElements(nums1, m)) 
+	fmt.Println(RemoveDuplicates(nums1))	
 }
