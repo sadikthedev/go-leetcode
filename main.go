@@ -17,4 +17,5 @@ func main(){
 	p(RemoveElements(nums1, m)) 
 	p(RemoveDuplicates(nums1))
 	p(MajorityElements(nums2))
+	p(BestTimeToBuyAndSellStocks(nums1))
 }
